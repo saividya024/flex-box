@@ -1,0 +1,150 @@
+.page-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ebe6e6;
+    color: black;
+    padding: 10px;
+    word-spacing: normal;
+}
+
+
+.navigation {
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: small;
+}
+
+
+.navigation ul {
+    list-style: none;
+
+    margin: 0;
+    padding: 0;
+}
+
+.navigation v {
+
+    display: inline-block;
+    /* word-spacing: 5px;*/
+    margin-right: 10px;
+}
+
+.navigation a {
+    word-spacing: 6px;
+    text-decoration: none;
+    color: #333;
+}
+
+
+
+
+.search {
+    word-spacing: normal;
+    display: flex;
+}
+
+
+.navigation button {
+    display: flex;
+    margin: 20px;
+}
+
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    color: white;
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a {
+    color: #c45959;
+    display: block;
+    text-align: center;
+}
+
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #ccc;
+    border-radius: 17px;
+}
+
+.toggle-checkbox {
+    display: none;
+}
+
+.toggle-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 34px;
+    height: 34px;
+    background-color: #fff;
+    border-radius: 17px;
+    transition: left 0.3s ease-in-out;
+    word-spacing: 10px;
+}
+
+.toggle-checkbox:checked+.toggle-slider {
+    left: 26px;
+}
+
+
+.top-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+
+.top-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav v {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.top-nav a:hover {
+    background-color: #e0e0e0;
+
+}
+
+.sign-up-button {
+    background-color: #008000;
+    color: #fff;
+}
+
+.login-button {
+    background-color: #007bff;
+    color: #fff;
+}
